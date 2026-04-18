@@ -1,0 +1,76 @@
+<!-- ── HEADER SERVICIOS ──────────────────────────────────────────────────────── -->
+<section class="page-header">
+  <div class="page-header-container">
+    <span class="section-tag">Catálogo</span>
+    <h1>Todos los servicios</h1>
+    <p>{{TOTAL_MANUALES}} manuales · {{TOTAL_VIDEOS}} clases grabadas · {{TOTAL_CAPACITACIONES}} programas de capacitación</p>
+    <!-- Filtro rápido -->
+    <div class="filtros">
+      <button class="filtro-btn active" data-filtro="todos">Todos</button>
+      <button class="filtro-btn" data-filtro="manuales">📄 Manuales</button>
+      <button class="filtro-btn" data-filtro="videos">🎬 Videos</button>
+      <button class="filtro-btn" data-filtro="capacitaciones">🎓 Capacitaciones</button>
+      <button class="filtro-btn" data-filtro="uipath">UiPath</button>
+      <button class="filtro-btn" data-filtro="rocketbot">Rocketbot</button>
+    </div>
+  </div>
+</section>
+
+<!-- ── MANUALES ───────────────────────────────────────────────────────────────── -->
+<section class="section" id="manuales">
+  <div class="section-container">
+    <div class="section-header section-header-left">
+      <span class="section-tag">📄 Documentación</span>
+      <h2>Manuales e Instructivos</h2>
+      <p>Guías PDF descargables con instrucciones paso a paso. Una vez adquiridos, son tuyos para siempre.</p>
+    </div>
+    <div class="cards-grid" id="grid-manuales">
+      {{CARDS_MANUALES}}
+    </div>
+  </div>
+</section>
+
+<!-- ── DIVIDER ────────────────────────────────────────────────────────────────── -->
+<div class="section-divider"></div>
+
+<!-- ── CLASES GRABADAS ────────────────────────────────────────────────────────── -->
+<section class="section section-alt" id="videos">
+  <div class="section-container">
+    <div class="section-header section-header-left">
+      <span class="section-tag">🎬 Video tutoriales</span>
+      <h2>Clases Grabadas</h2>
+      <p>Aprende a tu propio ritmo con clases en video de alta calidad. Incluyen ejercicios prácticos y archivos de ejemplo.</p>
+    </div>
+    <div class="cards-grid" id="grid-videos">
+      {{CARDS_VIDEOS}}
+    </div>
+  </div>
+</section>
+
+<!-- ── DIVIDER ────────────────────────────────────────────────────────────────── -->
+<div class="section-divider"></div>
+
+<!-- ── CAPACITACIONES ─────────────────────────────────────────────────────────── -->
+<section class="section" id="capacitaciones">
+  <div class="section-container">
+    <div class="section-header section-header-left">
+      <span class="section-tag">🎓 Formación en vivo</span>
+      <h2>Capacitaciones Personalizadas</h2>
+      <p>La forma más rápida de aprender. Trabajo directamente contigo en tu contexto y objetivos específicos.</p>
+    </div>
+    <div class="cards-grid cards-grid-caps" id="grid-capacitaciones">
+      {{CARDS_CAPACITACIONES}}
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA FINAL ──────────────────────────────────────────────────────────────── -->
+<section class="section cta-section">
+  <div class="cta-container">
+    <div class="cta-content">
+      <h2>¿Necesitas algo a medida?</h2>
+      <p>Si no encuentras exactamente lo que buscas, contáctame. Puedo crear material personalizado para tu empresa o proyecto.</p>
+      <a href="/contacto.html" class="btn-hero-primary">Hacer una consulta personalizada</a>
+    </div>
+  </div>
+</section>

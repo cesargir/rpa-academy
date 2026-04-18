@@ -1,0 +1,38 @@
+[
+  {
+    "id": "video-001",
+    "titulo": "Crea tu primer Robot UiPath en 30 minutos",
+    "descripcion": "Tutorial paso a paso donde construimos un robot que automatiza la descarga de reportes desde un sistema web y los organiza en carpetas.",
+    "herramienta": "UiPath",
+    "nivel": "Principiante",
+    "duracion": "32:15",
+    "precio": 12000,
+    "moneda": "CLP",
+    "precio_usd": 12.00,
+    "gratuito": false,
+    "video_url": "https://vimeo.com/TU_VIDEO_ID",
+    "thumbnail": "video-uipath-01.jpg",
+    "fecha": "2024-01-20",
+    "paypal_button_id": "PAYPAL_BUTTON_ID_AQUI",
+    "mercadopago_preference_id": "MP_PREFERENCE_ID_AQUI",
+    "tags": ["UiPath", "Principiante", "Tutorial", "Robot"]
+  },
+  {
+    "id": "video-002",
+    "titulo": "Automatización de Excel con Rocketbot",
+    "descripcion": "Aprende a manipular archivos Excel de forma automática: leer datos, procesar información y generar reportes con Rocketbot.",
+    "herramienta": "Rocketbot",
+    "nivel": "Intermedio",
+    "duracion": "45:30",
+    "precio": 18000,
+    "moneda": "CLP",
+    "precio_usd": 18.00,
+    "gratuito": false,
+    "video_url": "https://vimeo.com/TU_VIDEO_ID",
+    "thumbnail": "video-rocketbot-01.jpg",
+    "fecha": "2024-02-05",
+    "paypal_button_id": "PAYPAL_BUTTON_ID_AQUI",
+    "mercadopago_preference_id": "MP_PREFERENCE_ID_AQUI",
+    "tags": ["Rocketbot", "Excel", "Intermedio", "Reportes"]
+  }
+]

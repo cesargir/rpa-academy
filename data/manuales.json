@@ -1,0 +1,36 @@
+[
+  {
+    "id": "manual-001",
+    "titulo": "Introducción a UiPath Studio",
+    "descripcion": "Guía completa para instalar, configurar y crear tu primer robot con UiPath Studio. Ideal para principiantes.",
+    "herramienta": "UiPath",
+    "nivel": "Principiante",
+    "precio": 15000,
+    "moneda": "CLP",
+    "precio_usd": 15.00,
+    "gratuito": false,
+    "archivo": "intro-uipath-studio.pdf",
+    "imagen": "manual-uipath-01.jpg",
+    "fecha": "2024-01-15",
+    "paypal_button_id": "PAYPAL_BUTTON_ID_AQUI",
+    "mercadopago_preference_id": "MP_PREFERENCE_ID_AQUI",
+    "tags": ["UiPath", "Studio", "Principiante", "Instalación"]
+  },
+  {
+    "id": "manual-002",
+    "titulo": "Automatización Web con Rocketbot",
+    "descripcion": "Aprende a automatizar tareas en navegadores web usando Rocketbot. Incluye ejercicios prácticos con formularios y scraping.",
+    "herramienta": "Rocketbot",
+    "nivel": "Intermedio",
+    "precio": 20000,
+    "moneda": "CLP",
+    "precio_usd": 20.00,
+    "gratuito": false,
+    "archivo": "web-automation-rocketbot.pdf",
+    "imagen": "manual-rocketbot-01.jpg",
+    "fecha": "2024-02-10",
+    "paypal_button_id": "PAYPAL_BUTTON_ID_AQUI",
+    "mercadopago_preference_id": "MP_PREFERENCE_ID_AQUI",
+    "tags": ["Rocketbot", "Web", "Scraping", "Intermedio"]
+  }
+]

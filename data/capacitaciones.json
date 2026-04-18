@@ -1,0 +1,51 @@
+[
+  {
+    "id": "cap-001",
+    "titulo": "Asesoría UiPath - Sesión Individual",
+    "descripcion": "Sesión 1 a 1 de 2 horas donde trabajamos directamente en tu proyecto o caso de uso. Incluye grabación de la sesión y material de apoyo.",
+    "herramienta": "UiPath",
+    "tipo": "Asesoría Individual",
+    "duracion": "2 horas",
+    "modalidad": "Online (Zoom/Meet)",
+    "precio": 80000,
+    "moneda": "CLP",
+    "precio_usd": 80.00,
+    "disponible": true,
+    "imagen": "cap-individual-01.jpg",
+    "fecha": "2024-01-01",
+    "paypal_button_id": "PAYPAL_BUTTON_ID_AQUI",
+    "mercadopago_preference_id": "MP_PREFERENCE_ID_AQUI",
+    "incluye": [
+      "Sesión de 2 horas 1 a 1",
+      "Grabación de la sesión",
+      "Material de apoyo",
+      "Soporte por WhatsApp 48hrs post-sesión"
+    ],
+    "tags": ["UiPath", "Asesoría", "Individual", "Personalizada"]
+  },
+  {
+    "id": "cap-002",
+    "titulo": "Curso Intensivo RPA - Grupo Reducido",
+    "descripcion": "Programa de 8 horas distribuidas en 4 sesiones. Aprende desde cero hasta automatizaciones intermedias con UiPath y Rocketbot. Máximo 5 participantes.",
+    "herramienta": "UiPath + Rocketbot",
+    "tipo": "Curso Grupal",
+    "duracion": "8 horas (4 sesiones x 2hrs)",
+    "modalidad": "Online (Zoom)",
+    "precio": 250000,
+    "moneda": "CLP",
+    "precio_usd": 250.00,
+    "disponible": true,
+    "imagen": "cap-grupal-01.jpg",
+    "fecha": "2024-01-01",
+    "paypal_button_id": "PAYPAL_BUTTON_ID_AQUI",
+    "mercadopago_preference_id": "MP_PREFERENCE_ID_AQUI",
+    "incluye": [
+      "4 sesiones de 2 horas c/u",
+      "Acceso a grabaciones por 30 días",
+      "Manuales digitales incluidos",
+      "Certificado de participación",
+      "Grupo de soporte WhatsApp"
+    ],
+    "tags": ["UiPath", "Rocketbot", "Grupal", "Intensivo", "Certificado"]
+  }
+]

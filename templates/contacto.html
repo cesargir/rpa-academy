@@ -1,0 +1,119 @@
+<!-- ── CONTACTO ───────────────────────────────────────────────────────────── -->
+<section class="page-header">
+  <div class="page-header-container">
+    <span class="section-tag">¿Hablamos?</span>
+    <h1>Contacto</h1>
+    <p>Respondo en menos de 24 horas en días hábiles. Para consultas urgentes usa WhatsApp.</p>
+  </div>
+</section>
+
+<section class="section contacto-section">
+  <div class="contacto-container">
+
+    <!-- FORMULARIO -->
+    <div class="contacto-form-col">
+      <div class="form-card">
+        <h2>Envíame un mensaje</h2>
+        <form id="contactForm" action="{{FORMULARIO_ENDPOINT}}" method="POST">
+          <div class="form-group">
+            <label for="nombre">Nombre completo *</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico *</label>
+            <input type="email" id="email" name="email" required placeholder="tu@email.com">
+          </div>
+          <div class="form-group">
+            <label for="empresa">Empresa (opcional)</label>
+            <input type="text" id="empresa" name="empresa" placeholder="Nombre de tu empresa">
+          </div>
+          <div class="form-group">
+            <label for="asunto">¿En qué te puedo ayudar? *</label>
+            <select id="asunto" name="asunto" required>
+              <option value="">Selecciona una opción...</option>
+              <option value="manual">Consulta sobre un manual</option>
+              <option value="video">Consulta sobre una clase grabada</option>
+              <option value="capacitacion">Capacitación personalizada</option>
+              <option value="proyecto">Proyecto de automatización</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje *</label>
+            <textarea id="mensaje" name="mensaje" required rows="5"
+              placeholder="Cuéntame sobre tu proyecto, qué procesos quieres automatizar, o qué tienes en mente..."></textarea>
+          </div>
+          <button type="submit" class="btn-form-submit">
+            <span>Enviar mensaje</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <div id="form-mensaje" class="form-feedback"></div>
+        </form>
+      </div>
+    </div>
+
+    <!-- INFO DE CONTACTO -->
+    <div class="contacto-info-col">
+      <div class="contacto-info-card">
+        <h3>Canales directos</h3>
+
+        <div class="contacto-canal">
+          <div class="canal-icon">💬</div>
+          <div class="canal-texto">
+            <strong>WhatsApp</strong>
+            <span>La forma más rápida</span>
+            <a href="https://wa.me/{{SITE_WHATSAPP}}?text=Hola,%20te%20contacto%20desde%20tu%20portal%20RPA"
+               target="_blank" class="canal-link">Escribir por WhatsApp →</a>
+          </div>
+        </div>
+
+        <div class="contacto-canal">
+          <div class="canal-icon">✉️</div>
+          <div class="canal-texto">
+            <strong>Email</strong>
+            <span>Para consultas detalladas</span>
+            <a href="mailto:{{SITE_EMAIL}}" class="canal-link">{{SITE_EMAIL}}</a>
+          </div>
+        </div>
+
+        <div class="contacto-canal">
+          <div class="canal-icon">🔗</div>
+          <div class="canal-texto">
+            <strong>LinkedIn</strong>
+            <span>Perfil profesional</span>
+            <a href="{{SITE_LINKEDIN}}" target="_blank" class="canal-link">Ver perfil →</a>
+          </div>
+        </div>
+
+        <div class="contacto-canal">
+          <div class="canal-icon">▶️</div>
+          <div class="canal-texto">
+            <strong>YouTube</strong>
+            <span>Contenido gratuito</span>
+            <a href="{{SITE_YOUTUBE}}" target="_blank" class="canal-link">Ver canal →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contacto-info-card">
+        <h3>Tiempo de respuesta</h3>
+        <div class="respuesta-grid">
+          <div class="respuesta-item">
+            <span class="respuesta-canal">WhatsApp</span>
+            <span class="respuesta-tiempo rapido">~2 horas</span>
+          </div>
+          <div class="respuesta-item">
+            <span class="respuesta-canal">Email</span>
+            <span class="respuesta-tiempo normal">~24 horas</span>
+          </div>
+          <div class="respuesta-item">
+            <span class="respuesta-canal">Formulario</span>
+            <span class="respuesta-tiempo normal">~24 horas</span>
+          </div>
+        </div>
+        <p class="respuesta-nota">* Días hábiles · Lunes a Viernes</p>
+      </div>
+    </div>
+
+  </div>
+</section>

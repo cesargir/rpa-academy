@@ -1,0 +1,7 @@
+dist/
+__pycache__/
+*.pyc
+.env
+.vercel
+.DS_Store
+Thumbs.db

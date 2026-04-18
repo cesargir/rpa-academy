@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{SITE_NOMBRE}} — {{SITE_SUBTITULO}}">
+  <title>{{SITE_NOMBRE}} — Automatización RPA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/main.css">
+  <link rel="icon" type="image/svg+xml" href="/static/img/favicon.svg">
+</head>
+<body>
+
+  <!-- ── NAV ──────────────────────────────────────────────────────────────── -->
+  <header class="nav-header">
+    <nav class="nav-container">
+      <a href="/index.html" class="nav-logo">
+        <span class="logo-icon">⚙️</span>
+        <span class="logo-text">{{SITE_NOMBRE}}</span>
+      </a>
+      <button class="nav-toggle" aria-label="Menú" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="/index.html" class="nav-link">Inicio</a></li>
+        <li><a href="/sobre-mi.html" class="nav-link">Sobre mí</a></li>
+        <li><a href="/servicios.html" class="nav-link">Servicios</a></li>
+        <li><a href="/contacto.html" class="nav-link nav-cta">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ── CONTENIDO ─────────────────────────────────────────────────────────── -->
+  <main>
+    {{CONTENIDO_PAGINA}}
+  </main>
+
+  <!-- ── FOOTER ────────────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="logo-text">⚙️ {{SITE_NOMBRE}}</span>
+        <p>{{SITE_SUBTITULO}}</p>
+      </div>
+      <div class="footer-links">
+        <h4>Páginas</h4>
+        <ul>
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="/sobre-mi.html">Sobre mí</a></li>
+          <li><a href="/servicios.html">Servicios</a></li>
+          <li><a href="/contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="/servicios.html#manuales">Manuales</a></li>
+          <li><a href="/servicios.html#videos">Clases Grabadas</a></li>
+          <li><a href="/servicios.html#capacitaciones">Capacitaciones</a></li>
+        </ul>
+      </div>
+      <div class="footer-contacto">
+        <h4>Contacto</h4>
+        <a href="mailto:{{SITE_EMAIL}}">{{SITE_EMAIL}}</a>
+        <a href="https://wa.me/{{SITE_WHATSAPP}}" target="_blank">WhatsApp</a>
+        <a href="{{SITE_LINKEDIN}}" target="_blank">LinkedIn</a>
+        <a href="{{SITE_YOUTUBE}}" target="_blank">YouTube</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© {{AÑO_ACTUAL}} {{AUTOR_NOMBRE}} · {{SITE_NOMBRE}} · Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="/static/js/main.js"></script>
+</body>
+</html>

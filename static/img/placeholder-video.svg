@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#1a2236"/>
+  <text x="200" y="90" text-anchor="middle" font-family="monospace" font-size="40" fill="#2a3a55">🎬</text>
+  <text x="200" y="130" text-anchor="middle" font-family="monospace" font-size="13" fill="#64748b">Clase grabada</text>
+</svg>
